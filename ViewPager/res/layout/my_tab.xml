@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <RadioGroup 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+        <RadioButton 
+            android:id="@+id/rb_1"
+            android:text="@string/home"
+            android:drawableTop="@drawable/find_2"
+            style="@style/myTabStyle"
+            />
+        <RadioButton 
+            android:id="@+id/rb_2"
+            android:text="@string/business"
+            android:drawableTop="@drawable/map_2"
+            style="@style/myTabStyle"
+            />
+        <RadioButton 
+            android:id="@+id/rb_3"
+            android:text="@string/save"
+            android:drawableTop="@drawable/add_2"
+            style="@style/myTabStyle"
+            />
+        <RadioButton 
+            android:id="@+id/rb_4"
+            android:text="@string/my"
+            android:drawableTop="@drawable/tickets_2"
+            style="@style/myTabStyle"
+            />
+        
+    </RadioGroup>
+   
+
+</LinearLayout>
